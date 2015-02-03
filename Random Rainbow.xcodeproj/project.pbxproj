@@ -1,0 +1,426 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C00EE93D16E3BDE800244545 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EE93C16E3BDE800244545 /* Default@2x.png */; };
+		C00EE93F16E3BDED00244545 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EE93E16E3BDED00244545 /* Default-568h@2x.png */; };
+		C00EE94116E3BE1D00244545 /* Default-Portrait@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = C00EE94016E3BE1D00244545 /* Default-Portrait@2x~ipad.png */; };
+		C072879B16BB1880001EAFEE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C072879A16BB1880001EAFEE /* UIKit.framework */; };
+		C072879D16BB1880001EAFEE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C072879C16BB1880001EAFEE /* Foundation.framework */; };
+		C072879F16BB1880001EAFEE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C072879E16BB1880001EAFEE /* CoreGraphics.framework */; };
+		C07287A516BB1880001EAFEE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C07287A316BB1880001EAFEE /* InfoPlist.strings */; };
+		C07287A716BB1880001EAFEE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C07287A616BB1880001EAFEE /* main.m */; };
+		C07287AB16BB1880001EAFEE /* SEGAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C07287AA16BB1880001EAFEE /* SEGAppDelegate.m */; };
+		C08C9FF116D9752200CAC573 /* X.png in Resources */ = {isa = PBXBuildFile; fileRef = C08C9FF016D9752200CAC573 /* X.png */; };
+		C08C9FF416D9A56C00CAC573 /* SEGRainbowView.m in Sources */ = {isa = PBXBuildFile; fileRef = C08C9FF316D9A56B00CAC573 /* SEGRainbowView.m */; };
+		C08C9FF616D9AEBB00CAC573 /* Storyboard-iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C08C9FF516D9AEBB00CAC573 /* Storyboard-iPad.storyboard */; };
+		C08C9FF916D9C69F00CAC573 /* SEGArrigoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C08C9FF816D9C69F00CAC573 /* SEGArrigoViewController.m */; };
+		C0A7384B16C571B7004665EF /* SEGScoreManager.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7384A16C571B7004665EF /* SEGScoreManager.m */; };
+		C0A7384D16C571F8004665EF /* Storyboard-iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0A7384C16C571F8004665EF /* Storyboard-iPhone.storyboard */; };
+		C0A7385016C57466004665EF /* SEGMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7384F16C57466004665EF /* SEGMenuViewController.m */; };
+		C0A7385216C57824004665EF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0A7385116C57824004665EF /* QuartzCore.framework */; };
+		C0A7385516C57E13004665EF /* SEGGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7385416C57E13004665EF /* SEGGameViewController.m */; };
+		C0A7385816C58042004665EF /* SEGArcadeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7385716C58042004665EF /* SEGArcadeViewController.m */; };
+		C0A7385B16C58D3A004665EF /* SEGTimedGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C0A7385A16C58D3A004665EF /* SEGTimedGameViewController.m */; };
+		C0F77B8016BB2B0800BB293B /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F77B7F16BB2B0800BB293B /* Icon.png */; };
+		C0F77B8216BB2B0C00BB293B /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F77B8116BB2B0C00BB293B /* Icon@2x.png */; };
+		C0F77B8516BB363700BB293B /* Crashlytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F77B8416BB363700BB293B /* Crashlytics.framework */; };
+		C0F77B8716BB4F5000BB293B /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C0F77B8616BB4F5000BB293B /* GameKit.framework */; settings = {ATTRIBUTES = (Required, ); }; };
+		C0F77B8916BB762300BB293B /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F77B8816BB762300BB293B /* Icon-72.png */; };
+		C0F77B8B16BB762500BB293B /* Icon-72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C0F77B8A16BB762500BB293B /* Icon-72@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C00EE93C16E3BDE800244545 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		C00EE93E16E3BDED00244545 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		C00EE94016E3BE1D00244545 /* Default-Portrait@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-Portrait@2x~ipad.png"; path = "../Default-Portrait@2x~ipad.png"; sourceTree = "<group>"; };
+		C072879716BB1880001EAFEE /* Random Rainbow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Random Rainbow.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C072879A16BB1880001EAFEE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C072879C16BB1880001EAFEE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C072879E16BB1880001EAFEE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C07287A216BB1880001EAFEE /* Random Rainbow-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Random Rainbow-Info.plist"; sourceTree = "<group>"; };
+		C07287A416BB1880001EAFEE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C07287A616BB1880001EAFEE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C07287A816BB1880001EAFEE /* Random Rainbow-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Random Rainbow-Prefix.pch"; sourceTree = "<group>"; };
+		C07287A916BB1880001EAFEE /* SEGAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SEGAppDelegate.h; sourceTree = "<group>"; };
+		C07287AA16BB1880001EAFEE /* SEGAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SEGAppDelegate.m; sourceTree = "<group>"; };
+		C08C9FF016D9752200CAC573 /* X.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = X.png; sourceTree = SOURCE_ROOT; };
+		C08C9FF216D9A56B00CAC573 /* SEGRainbowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGRainbowView.h; sourceTree = "<group>"; };
+		C08C9FF316D9A56B00CAC573 /* SEGRainbowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGRainbowView.m; sourceTree = "<group>"; };
+		C08C9FF516D9AEBB00CAC573 /* Storyboard-iPad.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = "Storyboard-iPad.storyboard"; path = "../Storyboard-iPad.storyboard"; sourceTree = "<group>"; };
+		C08C9FF716D9C69F00CAC573 /* SEGArrigoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGArrigoViewController.h; sourceTree = "<group>"; };
+		C08C9FF816D9C69F00CAC573 /* SEGArrigoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGArrigoViewController.m; sourceTree = "<group>"; };
+		C0A7384916C571B7004665EF /* SEGScoreManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGScoreManager.h; sourceTree = "<group>"; };
+		C0A7384A16C571B7004665EF /* SEGScoreManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGScoreManager.m; sourceTree = "<group>"; };
+		C0A7384C16C571F8004665EF /* Storyboard-iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = "Storyboard-iPhone.storyboard"; sourceTree = "<group>"; };
+		C0A7384E16C57466004665EF /* SEGMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGMenuViewController.h; sourceTree = "<group>"; };
+		C0A7384F16C57466004665EF /* SEGMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGMenuViewController.m; sourceTree = "<group>"; };
+		C0A7385116C57824004665EF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C0A7385316C57E13004665EF /* SEGGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGGameViewController.h; sourceTree = "<group>"; };
+		C0A7385416C57E13004665EF /* SEGGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGGameViewController.m; sourceTree = "<group>"; };
+		C0A7385616C58042004665EF /* SEGArcadeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGArcadeViewController.h; sourceTree = "<group>"; };
+		C0A7385716C58042004665EF /* SEGArcadeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGArcadeViewController.m; sourceTree = "<group>"; };
+		C0A7385916C58D3A004665EF /* SEGTimedGameViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SEGTimedGameViewController.h; sourceTree = "<group>"; };
+		C0A7385A16C58D3A004665EF /* SEGTimedGameViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SEGTimedGameViewController.m; sourceTree = "<group>"; };
+		C0F77B7F16BB2B0800BB293B /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = ../Icon.png; sourceTree = "<group>"; };
+		C0F77B8116BB2B0C00BB293B /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "../Icon@2x.png"; sourceTree = "<group>"; };
+		C0F77B8416BB363700BB293B /* Crashlytics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Crashlytics.framework; sourceTree = "<group>"; };
+		C0F77B8616BB4F5000BB293B /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
+		C0F77B8816BB762300BB293B /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "../Icon-72.png"; sourceTree = "<group>"; };
+		C0F77B8A16BB762500BB293B /* Icon-72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72@2x.png"; path = "../Icon-72@2x.png"; sourceTree = "<group>"; };
+		F6A3C05E7025419492877E27 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C072879416BB1880001EAFEE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0A7385216C57824004665EF /* QuartzCore.framework in Frameworks */,
+				C0F77B8716BB4F5000BB293B /* GameKit.framework in Frameworks */,
+				C072879B16BB1880001EAFEE /* UIKit.framework in Frameworks */,
+				C072879D16BB1880001EAFEE /* Foundation.framework in Frameworks */,
+				C072879F16BB1880001EAFEE /* CoreGraphics.framework in Frameworks */,
+				C0F77B8516BB363700BB293B /* Crashlytics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C072878E16BB1880001EAFEE = {
+			isa = PBXGroup;
+			children = (
+				C07287A016BB1880001EAFEE /* Random Rainbow */,
+				C072879916BB1880001EAFEE /* Frameworks */,
+				C072879816BB1880001EAFEE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C072879816BB1880001EAFEE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C072879716BB1880001EAFEE /* Random Rainbow.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C072879916BB1880001EAFEE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7385116C57824004665EF /* QuartzCore.framework */,
+				C0F77B8616BB4F5000BB293B /* GameKit.framework */,
+				C0F77B8416BB363700BB293B /* Crashlytics.framework */,
+				C072879A16BB1880001EAFEE /* UIKit.framework */,
+				C072879C16BB1880001EAFEE /* Foundation.framework */,
+				C072879E16BB1880001EAFEE /* CoreGraphics.framework */,
+				F6A3C05E7025419492877E27 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C07287A016BB1880001EAFEE /* Random Rainbow */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7385C16C58DAE004665EF /* Game Modes */,
+				C07287A916BB1880001EAFEE /* SEGAppDelegate.h */,
+				C07287AA16BB1880001EAFEE /* SEGAppDelegate.m */,
+				C07287A116BB1880001EAFEE /* Supporting Files */,
+				C0A7384916C571B7004665EF /* SEGScoreManager.h */,
+				C0A7384A16C571B7004665EF /* SEGScoreManager.m */,
+				C0A7384C16C571F8004665EF /* Storyboard-iPhone.storyboard */,
+				C08C9FF516D9AEBB00CAC573 /* Storyboard-iPad.storyboard */,
+				C0A7384E16C57466004665EF /* SEGMenuViewController.h */,
+				C0A7384F16C57466004665EF /* SEGMenuViewController.m */,
+				C08C9FF216D9A56B00CAC573 /* SEGRainbowView.h */,
+				C08C9FF316D9A56B00CAC573 /* SEGRainbowView.m */,
+			);
+			name = "Random Rainbow";
+			path = "Sometimes Red, Sometimes Blue";
+			sourceTree = "<group>";
+		};
+		C07287A116BB1880001EAFEE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C00EE94016E3BE1D00244545 /* Default-Portrait@2x~ipad.png */,
+				C00EE93E16E3BDED00244545 /* Default-568h@2x.png */,
+				C00EE93C16E3BDE800244545 /* Default@2x.png */,
+				C08C9FF016D9752200CAC573 /* X.png */,
+				C0F77B8A16BB762500BB293B /* Icon-72@2x.png */,
+				C0F77B8816BB762300BB293B /* Icon-72.png */,
+				C0F77B8116BB2B0C00BB293B /* Icon@2x.png */,
+				C0F77B7F16BB2B0800BB293B /* Icon.png */,
+				C07287A216BB1880001EAFEE /* Random Rainbow-Info.plist */,
+				C07287A316BB1880001EAFEE /* InfoPlist.strings */,
+				C07287A616BB1880001EAFEE /* main.m */,
+				C07287A816BB1880001EAFEE /* Random Rainbow-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C0A7385C16C58DAE004665EF /* Game Modes */ = {
+			isa = PBXGroup;
+			children = (
+				C0A7385316C57E13004665EF /* SEGGameViewController.h */,
+				C0A7385416C57E13004665EF /* SEGGameViewController.m */,
+				C0A7385916C58D3A004665EF /* SEGTimedGameViewController.h */,
+				C0A7385A16C58D3A004665EF /* SEGTimedGameViewController.m */,
+				C0A7385616C58042004665EF /* SEGArcadeViewController.h */,
+				C0A7385716C58042004665EF /* SEGArcadeViewController.m */,
+				C08C9FF716D9C69F00CAC573 /* SEGArrigoViewController.h */,
+				C08C9FF816D9C69F00CAC573 /* SEGArrigoViewController.m */,
+			);
+			name = "Game Modes";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C072879616BB1880001EAFEE /* Random Rainbow */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C07287B416BB1880001EAFEE /* Build configuration list for PBXNativeTarget "Random Rainbow" */;
+			buildPhases = (
+				C072879316BB1880001EAFEE /* Sources */,
+				C072879416BB1880001EAFEE /* Frameworks */,
+				C072879516BB1880001EAFEE /* Resources */,
+				C0F77B8316BB361B00BB293B /* ShellScript */,
+				D4165286D6B04E9AB8F1AC63 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Random Rainbow";
+			productName = "Sometimes Red, Sometimes Blue";
+			productReference = C072879716BB1880001EAFEE /* Random Rainbow.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C072878F16BB1880001EAFEE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SEG;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Samuel E. Giddins";
+			};
+			buildConfigurationList = C072879216BB1880001EAFEE /* Build configuration list for PBXProject "Random Rainbow" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C072878E16BB1880001EAFEE;
+			productRefGroup = C072879816BB1880001EAFEE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C072879616BB1880001EAFEE /* Random Rainbow */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C072879516BB1880001EAFEE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07287A516BB1880001EAFEE /* InfoPlist.strings in Resources */,
+				C0F77B8016BB2B0800BB293B /* Icon.png in Resources */,
+				C0F77B8216BB2B0C00BB293B /* Icon@2x.png in Resources */,
+				C0F77B8916BB762300BB293B /* Icon-72.png in Resources */,
+				C0F77B8B16BB762500BB293B /* Icon-72@2x.png in Resources */,
+				C0A7384D16C571F8004665EF /* Storyboard-iPhone.storyboard in Resources */,
+				C08C9FF116D9752200CAC573 /* X.png in Resources */,
+				C08C9FF616D9AEBB00CAC573 /* Storyboard-iPad.storyboard in Resources */,
+				C00EE93D16E3BDE800244545 /* Default@2x.png in Resources */,
+				C00EE93F16E3BDED00244545 /* Default-568h@2x.png in Resources */,
+				C00EE94116E3BE1D00244545 /* Default-Portrait@2x~ipad.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C0F77B8316BB361B00BB293B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "./Crashlytics.framework/run 8c3b5813a27efee90990b671a02c3f2fddda98c2";
+		};
+		D4165286D6B04E9AB8F1AC63 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C072879316BB1880001EAFEE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C07287A716BB1880001EAFEE /* main.m in Sources */,
+				C07287AB16BB1880001EAFEE /* SEGAppDelegate.m in Sources */,
+				C0A7384B16C571B7004665EF /* SEGScoreManager.m in Sources */,
+				C0A7385016C57466004665EF /* SEGMenuViewController.m in Sources */,
+				C0A7385516C57E13004665EF /* SEGGameViewController.m in Sources */,
+				C0A7385816C58042004665EF /* SEGArcadeViewController.m in Sources */,
+				C0A7385B16C58D3A004665EF /* SEGTimedGameViewController.m in Sources */,
+				C08C9FF416D9A56C00CAC573 /* SEGRainbowView.m in Sources */,
+				C08C9FF916D9C69F00CAC573 /* SEGArrigoViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C07287A316BB1880001EAFEE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C07287A416BB1880001EAFEE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C07287B216BB1880001EAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C07287B316BB1880001EAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C07287B516BB1880001EAFEE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sometimes Red, Sometimes Blue/Random Rainbow-Prefix.pch";
+				INFOPLIST_FILE = "Sometimes Red, Sometimes Blue/Random Rainbow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "Random Rainbow";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C07287B616BB1880001EAFEE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Sometimes Red, Sometimes Blue/Random Rainbow-Prefix.pch";
+				INFOPLIST_FILE = "Sometimes Red, Sometimes Blue/Random Rainbow-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				PRODUCT_NAME = "Random Rainbow";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C072879216BB1880001EAFEE /* Build configuration list for PBXProject "Random Rainbow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07287B216BB1880001EAFEE /* Debug */,
+				C07287B316BB1880001EAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C07287B416BB1880001EAFEE /* Build configuration list for PBXNativeTarget "Random Rainbow" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C07287B516BB1880001EAFEE /* Debug */,
+				C07287B616BB1880001EAFEE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C072878F16BB1880001EAFEE /* Project object */;
+}

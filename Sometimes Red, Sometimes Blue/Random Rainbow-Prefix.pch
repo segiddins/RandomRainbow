@@ -1,0 +1,25 @@
+//
+// Prefix header for all source files of the 'Sometimes Red, Sometimes Blue' target in the 'Sometimes Red, Sometimes Blue' project
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_3_0
+#warning "This project uses features only available in iOS SDK 3.0 and later."
+#endif
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+    #import <Foundation/Foundation.h>
+
+    #import <Crashlytics/Crashlytics.h>
+
+    #define IS_IPAD ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
+    #define BOUNDS [[UIScreen mainScreen] bounds]
+    #define RAND_FLOAT (arc4random() % 100)/100.0f
+
+    #define GALLAGHER_LEADERBOARD @"me.segiddins.random_rainbow.gallagher_lb"
+    #define TIMED_LEADERBOARD @"me.segiddins.random_rainbow.timed_lb"
+    #define ARCADE_LEADERBOARD @"me.segiddins.random_rainbow.xmode_lb"
+    #define ARRIGO_LEADBOARD @"me.segiddins.random_rainbow.arrigo_lb"
+#endif

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="2.0" toolsVersion="4457.6" systemVersion="12E55" targetRuntime="iOS.CocoaTouch" variant="6xAndEarlier" propertyAccessControl="none" useAutolayout="YES" initialViewController="q4r-oY-fJx">
+    <dependencies>
+        <deployment defaultVersion="1280" identifier="iOS"/>
+        <development version="4600" identifier="xcode"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="3682.6"/>
+    </dependencies>
+    <scenes>
+        <!--Menu View Controller-->
+        <scene sceneID="dS8-bH-Xwl">
+            <objects>
+                <viewController id="q4r-oY-fJx" customClass="SEGMenuViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HTJ-8O-NdK" customClass="SEGRainbowView">
+                        <rect key="frame" x="0.0" y="20" width="320" height="460"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LCJ-gg-1Gf">
+                                <rect key="frame" x="51" y="100" width="218" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="TDi-I4-5SN"/>
+                                    <constraint firstAttribute="height" constant="44" id="zZC-uv-un9"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Gallagher Mode">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startGallagherMode:" destination="q4r-oY-fJx" eventType="touchUpInside" id="1Z7-h2-BTS"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VmJ-EI-Pwy">
+                                <rect key="frame" x="86" y="318" width="149" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="JMJ-s6-s5H"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="X Mode">
+                                    <color key="titleColor" red="0.80000000000000004" green="0.0" blue="0.20000000000000001" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startArcadeMode:" destination="q4r-oY-fJx" eventType="touchUpInside" id="dXE-bK-NTT"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xKY-xy-jPU">
+                                <rect key="frame" x="86" y="204" width="149" height="52"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="149" id="Y6B-h1-3wv"/>
+                                    <constraint firstAttribute="height" constant="52" id="efW-82-qMC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Timed Mode">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startTimedMode:" destination="q4r-oY-fJx" eventType="touchUpInside" id="qs6-ag-SFr"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cVG-bJ-Kc8">
+                                <rect key="frame" x="86" y="384" width="149" height="44"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="44" id="E9q-r7-Kzo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="25"/>
+                                <state key="normal" title="Arrigo Mode">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="startArrigoMode:" destination="q4r-oY-fJx" eventType="touchUpInside" id="UdY-8d-pdr"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="VmJ-EI-Pwy" firstAttribute="centerX" secondItem="LCJ-gg-1Gf" secondAttribute="centerX" type="default" id="3tE-cw-BG1"/>
+                            <constraint firstItem="xKY-xy-jPU" firstAttribute="trailing" secondItem="VmJ-EI-Pwy" secondAttribute="trailing" type="default" id="482-XV-FVW"/>
+                            <constraint firstItem="cVG-bJ-Kc8" firstAttribute="centerX" secondItem="HTJ-8O-NdK" secondAttribute="centerX" type="default" id="BUe-e6-rpj"/>
+                            <constraint firstAttribute="bottom" secondItem="VmJ-EI-Pwy" secondAttribute="bottom" constant="98" id="RJN-xB-fQP"/>
+                            <constraint firstItem="cVG-bJ-Kc8" firstAttribute="trailing" secondItem="VmJ-EI-Pwy" secondAttribute="trailing" type="default" id="Uu1-I1-fmU"/>
+                            <constraint firstAttribute="bottom" secondItem="cVG-bJ-Kc8" secondAttribute="bottom" constant="32" id="WGu-Ge-KpZ"/>
+                            <constraint firstItem="LCJ-gg-1Gf" firstAttribute="top" secondItem="HTJ-8O-NdK" secondAttribute="top" constant="100" id="hMm-ty-Ute"/>
+                            <constraint firstItem="xKY-xy-jPU" firstAttribute="centerY" secondItem="HTJ-8O-NdK" secondAttribute="centerY" type="default" id="pXE-rY-qR3"/>
+                            <constraint firstItem="cVG-bJ-Kc8" firstAttribute="leading" secondItem="VmJ-EI-Pwy" secondAttribute="leading" type="default" id="tt5-uw-J9m"/>
+                        </constraints>
+                    </view>
+                    <extendedEdge key="edgesForExtendedLayout"/>
+                    <connections>
+                        <outlet property="arrigoButton" destination="cVG-bJ-Kc8" id="X1N-by-a0k"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xhb-ug-zFf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-16" y="-214"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination"/>
+    </simulatedMetricsContainer>
+</document>
