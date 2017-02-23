@@ -32,7 +32,7 @@
 //    [[PDDebugger defaultInstance] enableViewHierarchyDebugging];
 //    [[PDDebugger defaultInstance] setDisplayedViewAttributeKeyPaths:@[@"frame", @"alpha", @"hidden", @"backgroundColor"]];
 #endif
-    [Crashlytics startWithAPIKey:nil];
+//    [Crashlytics startWithAPIKey:nil];
     
     NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
     self.counter = [defaults integerForKey:@"Gallagher Counter"];

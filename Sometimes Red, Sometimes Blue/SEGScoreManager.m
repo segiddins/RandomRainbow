@@ -108,8 +108,8 @@
         else if (GKLocalPlayer.localPlayer.isAuthenticated)
         {
             CLSNSLog(@"local player authenticated");
-            [Crashlytics setUserName:localPlayer.displayName];
-            [Crashlytics setUserIdentifier:localPlayer.playerID];
+//            [Crashlytics setUserName:localPlayer.displayName];
+//            [Crashlytics setUserIdentifier:localPlayer.playerID];
             [GKLeaderboard loadLeaderboardsWithCompletionHandler:^(NSArray *leaderboards, NSError *error) {
                 if (error != nil) {
                     CLSNSLog(@"ERROR: %@", error.localizedDescription);

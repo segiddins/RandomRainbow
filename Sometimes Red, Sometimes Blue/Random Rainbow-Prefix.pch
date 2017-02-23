@@ -8,11 +8,14 @@
 #warning "This project uses features only available in iOS SDK 3.0 and later."
 #endif
 
+#define CLSNSLog(...)
+#define CLNSLog(...)
+
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
 
-    #import <Crashlytics/Crashlytics.h>
+//    #import <Crashlytics/Crashlytics.h>
 
     #define IS_IPAD ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
     #define BOUNDS [[UIScreen mainScreen] bounds]
